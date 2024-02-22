@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+#nav {
+  height: 13%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5vw;
+  padding: 0 1.48vw;
+}
+
+#nav h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#nav i {
+  font-size: 20px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 50%;
+}
+
+#center {
+  width: 100%;
+  padding: 40px 60px;
+}
+
+#center h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 90px;
+}
+
+#inside-center {
+  margin-top: 30px;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#inside-center p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+#right {
+  width: 20%;
+  margin-top: 22px;
+}
+
+#right .elem {
+  padding: 13px 0;
+  border-top: 2px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.elem a {
+  font-size: 18px;
+  color: black;
+  font-weight: 525;
+  text-decoration: none;
+}
+
+.elem i {
+  font-size: 30px;
+  font-weight: 500;
+  opacity: 0;
+}
+
+.elem:hover {
+  background-color: rgb(245, 242, 242);
+}
+
+.elem:hover i {
+  opacity: 1;
+}
+
+#bottom {
+  width: 100%;
+  height: 55%;
+  background-image: url("./umur-batur-kocak-hIzIe8IB0aA-unsplash.jpg");
+  background-size: cover;
+  background-position: 0 45%;
+}
+
+@media (max-width: 600px) {
+  #nav {
+    height: 13%;
+    width: 100%;
+    /* background-color: red; */
+    gap: 10vw;
+    padding: 0 5.5vw;
+  }
+
+  #nav h4 {
+    font-size: 6vw;
+    font-weight: 500;
+  }
+
+  #nav i {
+    font-size: 6vw;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 50%;
+  }
+
+  #center {
+    width: 100%;
+    padding: 4.5vw 5.5vw;
+  }
+
+  #center h1 {
+    font-size: 10.5vw;
+    font-weight: 500;
+    line-height: 12vw;
+  }
+
+  #inside-center {
+    margin-top: 7.5vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  #inside-center p {
+    font-size: 4vw;
+    font-weight: 500;
+    line-height: 4.5vw;
+  }
+
+  #right {
+    width: 100%;
+    margin-top: 4vw;
+  }
+
+  #right .elem {
+    padding: 2vw 0;
+    border-top: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .elem a {
+    font-size: 4vw;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .elem i {
+    font-size: 7.25vw;
+    font-weight: 500;
+    opacity: 0;
+  }
+  #bottom {
+    width: 100%;
+    height: 32%;
+    background-image: url("./umur-batur-kocak-hIzIe8IB0aA-unsplash.jpg");
+    background-size: cover;
+    background-position: 0 45%;
+  }
+}
