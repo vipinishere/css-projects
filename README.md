@@ -34,9 +34,15 @@ I embarked on my web development journey in 2022 under the guidance of Dr. Angel
 
 ### Projects from Sheriyan's Coding School - Frontend Domination Course (Dec 2023 - Mar 2024)
 
-1. **Project 1:** [Project Name](link-to-project) - Description of the project.
-2. **Project 2:** [Project Name](link-to-project) - Description of the project.
-3. ...
+1. **Project 1:** [Shop-Jacket](https://vipinishere.github.io/css-projects/Shop-Jacket/)
+
+2. **Project 2:** [A-Cotten-Weave](https://vipinishere.github.io/css-projects/A-Cotten-weave)
+
+3. **Project 3:** [Fashion-Selection](https://vipinishere.github.io/css-projects/Fashion-Selection)
+
+4. **Project 4:** [Trendline](https://vipinishere.github.io/css-projects/Trendline)
+
+5. **Project 5:** [Premier](https://vipinishere.github.io/css-projects/Premier)
 
 ## Goals
 
@@ -50,8 +56,8 @@ Feedback is always welcome! If you have any suggestions or comments on any of th
 
 If you'd like to connect or learn more about my projects, you can find me on:
 
-- [LinkedIn](your-linkedin-profile)
-- [Twitter](your-twitter-profile)
-- [Personal Website/Blog](link-to-your-website)
+- [LinkedIn](https://linkedin.com/vipinishere)
+- [Twitter](https://twitter.com/itsVipinkumar)
+- [Personal Website/Blog](https://vipinishere.github.io/Personal-Website/)
 
-Thank you for visiting my repository! Happy coding! 🚀
+Thank you for visiting my repository! Happy coding!
