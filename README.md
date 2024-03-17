@@ -14,35 +14,35 @@ I embarked on my web development journey in 2022 under the guidance of Dr. Angel
 
 ### Projects from Dr. Angela Yu's Udemy Course
 
-1. **Project 1:** [CV](https://vipinishere.github.io/cv){:target="\_blank"}
+1. **Project 1:** <a href="https://vipinishere.github.io/cv" target="_blank">CV</a>
 
    - This was first and basic web page that I created while learning HTML and CSS.
-   - [Webpage](https://vipinishere.github.io/cv/){:target="\_blank"}
-   - [Code](https://github.com/vipinishere/cv){:target="\_blank"}
+   - <a href="https://vipinishere.github.io/cv/" target="_blank">Webpage</a>
+   - <a href="https://github.com/vipinishere/cv" target="_blank">Code</a>
 
-2. **Project 2:** [Personal Website](https://vipinishere.github.io/Personal-Website/){:target="\_blank"}
+2. **Project 2:** <a href="https://vipinishere.github.io/Personal-Website" target="_blank">Personal Website</a>
 
    - That was the second project that I created after learned the basic concepts of CSS like Box-Model, Positioning, Typography, Psuedo classes, Gradiant Backgrounds and Border Radius.
-   - [Webpage](https://vipinishere.github.io/Personal-Website/){:target="\_blank"}
-   - [Code](https://github.com/vipinishere/Personal-Website){:target="\_blank"}
+   - <a href="https://vipinishere.github.io/Personal-Website" target="_blank">Webpage</a>
+   - <a href="https://github.com/vipinishere/Personal-Website" target="_blank">Code</a>
 
-3. **Project 3:** [tindog.co clone](https://vipinishere.github.io/tindog.co/){:target="\_blank"}
+3. **Project 3:** <a href="https://vipinishere.github.io/tindog.co" target="_blank">tindog.co clone</a>
 
    - This was a clone project of dog's blog website. While making this clone webpage I used many features of CSS such as Animation(rotation), Typography, and Box-Model to create a cohesive and visually appealing design.
-   - [Webpage](https://vipinishere.github.io/tindog.co/){:target="\_blank"}
-   - [Code](https://github.com/vipinishere/tindog.co){:target="\_blank"}
+   - <a href="https://vipinishere.github.io/tindog.co/" target="_blank">Webpage</a>
+   - <a href="https://github.com/vipinishere/tindog.co" target="_blank">Code</a>
 
 ### Projects from Sheriyan's Coding School - Frontend Domination Course (Dec 2023 - Mar 2024)
 
-1. **Project 1:** [Shop-Jacket](https://vipinishere.github.io/css-projects/Shop-Jacket/){:target="\_blank"}
+1. **Project 1:** <a href="https://vipinishere.github.io/css-projects/Shop-Jacket/" target="_blank">Shop-Jacket</a>
 
-2. **Project 2:** [A-Cotten-Weave](https://vipinishere.github.io/css-projects/A-Cotten-weave){:target="\_blank"}
+2. **Project 2:** <a href="https://vipinishere.github.io/css-projects/A-Cotten-weave" target="_blank">A-Cotten-Weave</a>
 
-3. **Project 3:** [Fashion-Selection](https://vipinishere.github.io/css-projects/Fashion-Selection){:target="\_blank"}
+3. **Project 3:** <a href="https://vipinishere.github.io/css-projects/Fashion-Selection" target="_blank">Fashion-Selection</a>
 
-4. **Project 4:** [Trendline](https://vipinishere.github.io/css-projects/Trendline){:target="\_blank"}
+4. **Project 4:** <a href="https://vipinishere.github.io/css-projects/Trendline" target="_blank">Trendline</a>
 
-5. **Project 5:** [Premier](https://vipinishere.github.io/css-projects/Premier){:target="\_blank"}
+5. **Project 5:** <a href="https://vipinishere.github.io/css-projects/Premier" target="_blank">Premier</a>
 
 ## Goals
 
