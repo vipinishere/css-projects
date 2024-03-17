@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Monument Extended";
+  src: url("./MonumentExtended-Regular.otf") format("opentype"),
+    url("./MonumentExtended-Ultrabold.otf") format("opentype");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -49,7 +55,7 @@ body {
   letter-spacing: -2px;
   width: 22%;
   height: 100%;
-  font-family: "Monument Extended";
+  font-family: var(--main-font);
   cursor: pointer;
   /* background-color: red; */
   position: relative;
@@ -95,6 +101,14 @@ body {
 
 #nav h2:nth-child(4) {
   width: 30%;
+}
+
+#nav .ri-search-line {
+  display: flex;
+}
+
+#nav .ri-menu-line {
+  display: none;
 }
 
 #nav i {
@@ -148,7 +162,7 @@ body {
 
 #over1 h1 {
   font-size: 3vw;
-  font-family: "Monument Extended";
+  font-family: var(--main-font);
   letter-spacing: 0.1vw;
   line-height: 1.1;
 }
@@ -474,6 +488,10 @@ body {
   justify-self: flex-start;
 }
 
+.profile2:nth-child(3) img {
+  visibility: hidden;
+}
+
 .profile2 div:last-child {
   width: 50%;
   height: 100%;
@@ -512,7 +530,7 @@ body {
   font-size: 3vw;
   letter-spacing: 3px;
   text-transform: uppercase;
-  font-family: "Monument Extended";
+  font-family: var(--main-font);
   color: transparent;
   -webkit-text-stroke: 2px black;
   flex-shrink: 0;
@@ -532,7 +550,7 @@ body {
 
 #blog-section h1 {
   font-size: 3vw;
-  font-family: "Monument Extended";
+  font-family: var(--main-font);
   text-transform: uppercase;
   width: 20%;
   height: 100%;
@@ -594,7 +612,7 @@ body {
   letter-spacing: -2px;
   width: 50%;
   height: fit-content;
-  font-family: "Monument Extended";
+  font-family: var(--main-font);
   cursor: pointer;
   /* background-color: red; */
   position: relative;
@@ -660,4 +678,427 @@ body {
   margin-top: 1vw;
   font-size: 1.2vw;
   font-weight: 400;
+}
+
+@media (max-width: 600px) {
+  #nav {
+    margin-top: 1vh;
+    padding: 0 2vw;
+    justify-content: space-between;
+  }
+
+  #nav h1 {
+    font-size: 8vw;
+  }
+
+  #nav h1::after {
+    content: "";
+  }
+
+  #nav h1::before {
+    content: "";
+  }
+
+  #nav h2 {
+    display: none;
+  }
+
+  #nav i {
+    font-size: 9vw;
+    border: none;
+  }
+
+  #nav .ri-search-line {
+    display: none;
+  }
+
+  #nav .ri-menu-line {
+    display: flex;
+  }
+
+  #center {
+    height: 50vh;
+    /* background-color: red; */
+    padding: 1.5vw 2vw;
+  }
+
+  #overlay {
+    height: 25%;
+    padding: 0 2vw;
+  }
+
+  #over1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2.5vw;
+  }
+
+  #over1 h1 {
+    font-size: 5vw;
+    font-family: var(--main-font);
+    letter-spacing: 0.1vw;
+    line-height: 1.1;
+  }
+
+  #over1 h2 {
+    font-size: 3.5vw;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    /* background-color: blue; */
+    padding: 2vw;
+    border-bottom: 2px solid #fff;
+  }
+  #over2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vh 0;
+  }
+
+  #over2 h4 {
+    font-size: 3.5vw;
+    font-weight: 500;
+  }
+
+  #over2 img {
+    height: 7vw;
+    width: 8vw;
+  }
+
+  #scroll {
+    height: 20vh;
+  }
+
+  #scroll .container {
+    width: 250%;
+  }
+
+  .container .profile {
+    width: 30%;
+    height: 100%;
+  }
+
+  .profile h4 {
+    font-size: 4vw;
+  }
+
+  #alphabet-nav {
+    display: inline-block;
+    height: 12%;
+    padding: 0.5vh 2vw;
+  }
+
+  #alphabet-nav h2 {
+    text-align: center;
+  }
+  #alphabet-nav h4 {
+    display: inline;
+    font-size: 3.5vw;
+    padding: 0.4vw 0.9vw;
+  }
+  .page2 {
+    padding: 1.5vw 2vw 0;
+    flex-direction: column;
+  }
+
+  .p2-left {
+    width: 100%;
+    height: 50%;
+  }
+
+  .p2-right {
+    width: 100%;
+    height: 48%;
+    /* background-color: yellow; */
+  }
+
+  .p2-right img {
+    width: 100%;
+    height: 50%;
+  }
+
+  .p2-right .content {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .p2-right .content h2 {
+    width: 100%;
+  }
+
+  .p2-right .content h5 {
+    width: 100%;
+    padding-top: 1vh;
+    font-size: 3.1vw;
+  }
+
+  #page3 {
+    height: 100vh;
+    width: 100vw;
+    padding: 1vw 2vw 0vw;
+    /* background-color: red; */
+  }
+
+  #p3-heading {
+    font-size: 10vw;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+  }
+
+  #p3-content {
+    /* background-color: red; */
+    height: calc(100vh - 10vh);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #p3-left {
+    height: 50%;
+    width: 100%;
+  }
+
+  #p3-left-top #circular-text {
+    width: 80%;
+    height: 80%;
+  }
+
+  #p3-left-bottom {
+    height: 19%;
+    width: 100%;
+  }
+
+  #p3-left-bottom h3 {
+    font-size: 3.2vw;
+  }
+
+  #p3-right {
+    height: 50%;
+    width: 100%;
+  }
+
+  #page4 {
+    height: 50vh;
+    width: 100vw;
+    padding: 1vw 2vw 0;
+    margin-bottom: 2vh;
+  }
+
+  #page4 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  #page5 {
+    width: 100vw;
+    height: 60vh;
+    padding: 1vw 2vw 0;
+  }
+
+  #page5 h1 {
+    font-size: 10vw;
+  }
+
+  #page5 .profile2 {
+    width: 100%;
+    height: 18%;
+    padding: 1vw;
+  }
+
+  .profile2 h3 {
+    font-size: 3.1vw;
+    font-weight: 400;
+  }
+
+  .profile2 img {
+    height: 100%;
+    width: 20%;
+  }
+
+  .profile2 div:last-child {
+    width: 50%;
+    height: 100%;
+  }
+
+  .profile2 div h2 {
+    font-size: 4.8vw;
+  }
+
+  .profile2 div h5 {
+    font-size: 2vw;
+  }
+
+  #page6 {
+    padding: 1vw 2vw 0;
+  }
+
+  #scroll-x {
+    height: 10vh;
+    width: 100vw;
+    padding: 0vw 2.5vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+  }
+
+  #scroll-x h1 {
+    font-size: 10vw;
+    width: 190%;
+    padding: 1vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #blog-section {
+    height: 100vh;
+    width: 100vw;
+    padding: 1vw 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #blog-section h1 {
+    font-size: 10vw;
+    width: 100%;
+    height: 6%;
+  }
+
+  #blog-section .blog-content {
+    width: 100%;
+    height: 44.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #blog-section .blog-content h3 {
+    height: fit-content;
+    width: 100%;
+    font-size: 4.2vw;
+  }
+
+  #blog-section .blog-content span {
+    padding: 1.3% 2.5%;
+  }
+
+  #footer {
+    height: 35vh;
+    width: 100vw;
+    border-block: 0px solid #000;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+  }
+
+  .f-left {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 2px solid #000;
+    padding: 1vw 2vw;
+    /* background-color: red; */
+  }
+
+  .f-left h1 {
+    font-size: 15vw;
+    letter-spacing: -2px;
+    width: fit-content;
+    height: fit-content;
+    font-family: var(--main-font);
+    cursor: pointer;
+    /* background-color: red; */
+    position: relative;
+  }
+
+  .f-left h1::after {
+    content: "\00A9";
+    position: absolute;
+    font-size: 18px;
+    color: #464040;
+    font-weight: 100;
+    top: -5%;
+    right: -10%;
+  }
+
+  .f-left h1::before {
+    content: "model management";
+    letter-spacing: 1px;
+    position: absolute;
+    font-size: 8px;
+    font-weight: 100;
+    color: #464040;
+    bottom: 5%;
+    right: 8%;
+  }
+
+  .f-left h2 {
+    font-size: 4vw;
+    font-weight: 400;
+  }
+
+  .f-center {
+    width: 100%;
+    height: 12%;
+    padding: 2vw;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: yellow; */
+  }
+
+  .f-center h2 {
+    font-size: 4vw;
+    font-weight: 400;
+  }
+
+  .f-right {
+    width: 100%;
+    height: 48%;
+    padding: 1vw 2vw;
+    /* background-color: burlywood; */
+  }
+
+  .f-right h2 {
+    height: 25%;
+    width: 100%;
+    font-size: 4vw;
+    padding: 0;
+    border-bottom: none;
+    font-weight: 400;
+    /* background-color: purple; */
+  }
+
+  .f-right div {
+    width: 100%;
+    height: 70%;
+    /* background-color: red; */
+    padding-left: 0vw;
+  }
+
+  .f-right div i {
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+    font-size: 10vw;
+  }
+
+  .f-right div i:not(.ri-instagram-line) {
+    margin-left: 3vw;
+  }
+
+  .f-right div h3 {
+    font-size: 3vw;
+    font-weight: 400;
+  }
 }
